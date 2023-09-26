@@ -1,0 +1,53 @@
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background-color: #333;
+}
+
+.clock-body {
+    width: 300px;
+    height: 400px;
+    background-color: #a44900;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.pigeon-window{
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    margin-bottom: 30px;
+    font-size: 36px;
+    color: black;
+    background-color: black;
+}
+
+.clock {
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: bold;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.5);
+}
+
+.time {
+    font-size: 36px;
+}
+
+.cry-button{
+    margin-top: 20px;
+}

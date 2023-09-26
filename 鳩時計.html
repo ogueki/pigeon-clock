@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <title>鳩時計</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+
+</head>
+<body>
+    <div class="clock-body">
+    <div class="pigeon-window" id="pigeon">🕊</div>
+    <div class="clock">
+        <div class="time" id="digital-clock"></div>
+    </div>
+    <button class='cry-button' onclick="playPigeonCry(),changePigeonColor()">はと</button>
+    </div>
+
+
+    <audio id="pigeon-cry">
+        <source src="Cuckoo_Clock01-03(Denoise-Long).mp3" type="audio/mpeg">
+    </audio>
+
+    <script src="pigeon-clock.js"></script>
+
+</body>
+</html>
