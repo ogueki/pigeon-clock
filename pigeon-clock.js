@@ -22,11 +22,13 @@ function playPigeonCry() {
 
 
 function changePigeonColor() {
-    const pigeonWindow = document.getElementById('pigeon');
-    pigeonWindow.style.color = 'white'; 
+    const pigeonWindow = document.getElementById('pigeon-character');
+    pigeonCharacter.classList.remove("pigeon-character");
+    pigeonCharacter.classList.add("pigeon-character-appear");
 
     setTimeout(() => {
-        pigeonWindow.style.color = 'black'; 
+        pigeonCharacter.classList.remove("pigeon-character-appear");
+        pigeonCharacter.classList.add("pigeon-character");
     }, 10000); 
 }
 
